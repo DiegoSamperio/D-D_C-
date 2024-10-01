@@ -1,0 +1,50 @@
+string race,string name,string descripcion,string type(curacion,daño,escudo),int value
+
+'elf','renacimiento','los elfos de morgana te dan su bendicion',curacion,20
+'elf','dragonite','los elfos de parzival te dan su poder',damage,40
+'elf','principito','los elfos del principe te dan su proteccion',escudo,20
+'human','cielo','los humanos te dan su bondad',curacion,30
+'human','inferno','los humanos te dan su maldad',damage,30
+'human','paz','los humanos te dan su tranquilidad',escudo,20
+'dwarf','honguito','los enanos de persa te dan su bendicion',curacion,40
+'dwarf','Hongo supremo','los enanos de persa te dan su poder',damage,20
+'dwarf','Toad','los enanos de Mario te dan su armadura',escudo,20
+
+//IDEA DE FUNCIONAMIENTO EN JUEGO
+BOOL use_ability
+if (use_ability=true && race==elf){
+    if (type==curacion){
+    player lifeP+=20;
+    }
+    if (type==daño){
+    Monster lifeP-=40;
+    }
+    if (type==escudo){
+    monster damage ignore
+  }
+}
+
+if (race==human){
+  if (type==curacion){
+  player lifeP+=30;
+  }
+if (type==daño){
+  Monster lifeP+=30;
+}
+if (type==escudo){
+  monster damage ignore
+  }
+}
+if (race==dwarf){
+  if (type==curacion){
+  player lifeP+=40;
+  }
+if (type==daño){
+   Monster lifeP+=20;
+}
+if (type==escudo){
+monster damage ignore
+}
+
+-----------------------------------------------------------------------
+

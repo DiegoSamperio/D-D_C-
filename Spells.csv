@@ -1,0 +1,21 @@
+string name,string info,bool type,int value
+Fireball,lanzas una gigante bola de fuego al enemigo,1,90
+Thunderstorm,Invocas una tormenta eléctrica que golpea a el mounstro con potentes rayos,1,100
+ShadowStrike,Te sumerges en las sombras y golpeas a tu enemigo con un ataque oscuro y sigiloso,1,85
+FlameWhip,Desatas un látigo de llamas que golpea al monstruo con furia,1,85
+Frostbite,Envuelves al monstruo en un frío glacial infligiendo daño helado,1,80
+ArcaneExplosion,Generas una explosión de energía arcana que afecta a todos los monstruos cercanos,1,90
+Thunderclap,Un estruendoso golpe sónico daña y aturde al monstruo,1,95
+SoulHarvest,Extraes almas de los monstruos derrotados para aumentar tu poder,1,100
+GordanForce, Una llamarada del cielo impacta al mounstro dejandolo ardiendo,1,100
+HealthCure,lanzas esporas que te curan la vida,0,60
+HealingLight,Invocas una luz curativa que envuelve a tus aliados restaurando su salud,0,75
+NaturesEmbrace,Conectas con la naturaleza para regenerar tu propia salud y la de tus compañeros cercanos,0,50
+EtherealElixir,Creas un elixir etéreo que restaura la salud perdida y fortalece la resistencia,0,70
+HealingAura,Generas un aura curativa que restaura la salud de todos los aliados cercanos,0,75
+Nature'sBlessing,Recibes la bendición de la naturaleza regenerando tu salud con el tiempo,0,60
+CleansingWave,Invocas una ola purificadora que elimina estados negativos y cura a tus aliados,0,80
+SacredGuardian,Te conviertes en un guardián sagrado absorbiendo daño y curando a tus aliados cuando eres atacado,0,90
+RevitalizingChant,Entonas un canto revitalizante que restaura la salud de todos los miembros del grupo,0,70
+VenomousBite,Una espora se libera en el ambiente y te infecta,0,-15
+CofreAsesino,Un cofre asesino te ataca sin pieda mala suerte!,0,-20
